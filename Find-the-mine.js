@@ -32,3 +32,5 @@ function mineLocation(field){
     }
   }
 }
+
+// or
