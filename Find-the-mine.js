@@ -34,3 +34,12 @@ function mineLocation(field){
 }
 
 // or
+
+function mineLocation(field){
+  for(let i = 0, j, length = field.length; i < length; i++){
+     j = field[i].indexOf(1);
+     if(j != -1) {
+       return [i, j];
+     }
+  }
+}
